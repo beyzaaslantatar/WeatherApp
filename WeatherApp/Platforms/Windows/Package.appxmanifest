@@ -8,7 +8,7 @@
 
 	<Identity Name="maui-package-name-placeholder" Publisher="CN=User Name" Version="0.0.0.0" />
 
-	<mp:PhoneIdentity PhoneProductId="44FF4D74-0094-402A-AA13-2008D7C645F1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+	<mp:PhoneIdentity PhoneProductId="AA37AD28-366B-41F2-90BF-34B15182A8BA" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
 	<Properties>
 		<DisplayName>$placeholder$</DisplayName>
@@ -22,17 +22,17 @@
 	</Dependencies>
 
 	<Resources>
-		<Resource Language="en-US" />
+		<Resource Language="x-generate" />
 	</Resources>
 
 	<Applications>
 		<Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
 			<uap:VisualElements
-				DisplayName="$placeholder$"
-				Description="$placeholder$"
-				Square150x150Logo="$placeholder$.png"
-				Square44x44Logo="$placeholder$.png"
-				BackgroundColor="transparent">
+			  DisplayName="$placeholder$"
+			  Description="$placeholder$"
+			  Square150x150Logo="$placeholder$.png"
+			  Square44x44Logo="$placeholder$.png"
+			  BackgroundColor="transparent">
 				<uap:DefaultTile Square71x71Logo="$placeholder$.png" Wide310x150Logo="$placeholder$.png" Square310x310Logo="$placeholder$.png" />
 				<uap:SplashScreen Image="$placeholder$.png" />
 			</uap:VisualElements>
@@ -40,8 +40,6 @@
 	</Applications>
 
 	<Capabilities>
-		<Capability Name="internetClient" />
-		<DeviceCapability Name="location" />
 		<rescap:Capability Name="runFullTrust" />
 	</Capabilities>
 
